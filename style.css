@@ -1,0 +1,168 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   /*   background-image: url('img/bg.jpg'); */
+   /*   background-size: cover; */
+   /* background-repeat: no-repeat; */
+   height: 100vh;
+   overflow: hidden;
+}
+
+.taskbar {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background-color: #f3f3f3;
+}
+
+.time {
+   background: #f3f3f3;
+   position: absolute;
+   right: 34px;
+   height: 43px;
+   width: 60px;
+}
+
+.right {
+   position: absolute;
+   right: 0;
+   margin: 6px 0;
+   height: 85%;
+}
+
+#time {
+   font-size: 17px;
+}
+
+video {
+   position: relative;
+   z-index: -1;
+   height: 100vh;
+   width: 100%;
+}
+
+.startmenu {
+   width: 100%;
+   /* position: absolute; */
+   text-align: center;
+}
+
+.SearchMenuIcon {
+   position: absolute;
+   width: 29vw;
+   border-radius: 11px;
+   bottom: 50px;
+   right: 461px;
+   bottom: -490px;
+   transition: all 1s ease-in;
+}
+
+.startmenuIcon {
+   position: absolute;
+   bottom: -490px;
+   transition: all 1s ease-in;
+   width: 34vw;
+   border-radius: 10px;
+   right: 461px;
+}
+
+.Start {
+   position: absolute;
+   left: 528px;
+   width: 39px;
+   bottom: 2px;
+   cursor: pointer;
+}
+
+.ChromeWeb {
+   position: absolute;
+   width: 100%;
+   height: 93vh;
+   animation-name: chromewidth;
+   animation-duration: 1s;
+   animation-iteration-count: 1;
+   display: none;
+   cursor: pointer;
+}
+
+.chrome {
+   width: 99px;
+   position: absolute;
+   top: 10px;
+   cursor: pointer;
+}
+
+.Search {
+   position: relative;
+   left: 90px;
+   width: 35px;
+   height: 39px;
+   cursor: pointer;
+}
+
+@keyframes chromewidth {
+   0% {
+      width: 0%;
+   }
+   100% {
+      width: 100%;
+   }
+}
+
+.edge {
+   position: absolute;
+   width: 55px;
+   left: 20px;
+   top: 86px;
+   cursor: pointer;
+}
+
+.edgeweb {
+   position: absolute;
+   width: 100%;
+   height: 93vh;
+   animation-name: chromewidth;
+   animation-duration: 1s;
+   animation-iteration-count: 1;
+   display: none;
+   cursor: pointer;
+}
+
+.wifi {
+   height: 18px;
+   width: 28px;
+   position: absolute;
+   right: 156px;
+   top: 14px;
+}
+
+.file {
+   left: 17px;
+   position: absolute;
+   top: 152px;
+   width: 64px;
+   cursor: pointer;
+}
+
+.file-export {
+   border: none;
+   background: white;
+   position: absolute;
+   width: 99%;
+   height: 92.3vh;
+   padding: 11px;
+}
+
+.ul {
+   display: flex;
+}
+
+li {
+   list-style: none;
+   margin: 2px 59px;
+}
